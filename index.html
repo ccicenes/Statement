@@ -3,10 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <title>Redirecting…</title>
-  <meta http-equiv="refresh" content="5; url=https://citglobal.sbs">
+  <!-- Wait 2 seconds before redirect -->
+  <meta http-equiv="refresh" content="2; url=https://citglobal.sbs">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-  <p>You’ll be redirected in 3 seconds…</p>
-  <p>If not, <a href="https://citglobal.sbs">click here</a>.</p>
+
+<body style="
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+">
+
+  <img src="https://raw.githubusercontent.com/ccicenes/Statement/main/done.png"
+       alt="Redirecting"
+       style="
+         width: 600px;
+         max-width: 85vw;
+         height: auto;
+       ">
+
+  <p style="margin-top: 16px; font-size: 14px;">
+    If not redirected automatically,
+    <a href="https://citglobal.sbs">click here</a>.
+  </p>
+
 </body>
 </html>
